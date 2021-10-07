@@ -19,7 +19,7 @@ The dataset we are doing for the DATA 301 Project is about the popularity of gam
 
 - Person 1: Hi, my name is Guopeng Zhou. I am a second years Math student.
 - Person 2: Hello, my name is Alex Richkum and I am a fourth year Business Management student.
-- Person 3: I'm Bathara Sugriat and unlike in Phub, my step sister is my worst enemy.
+- Person 3: I'm Bathara Sugriat (3rd year Phys) and I approve this message.
 
 ## Images
 
