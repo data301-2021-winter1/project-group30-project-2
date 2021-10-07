@@ -25,7 +25,7 @@ The dataset we are doing for the DATA 301 Project is about the popularity of gam
 
 {You can use this area for any images you want to include}
 
-<img src ="images/rTSev4Z__400x400.png" width="100px">
+<img src ="images/rTSev4Z__400x400.jpg" width="100px">
 
 ## References
 
