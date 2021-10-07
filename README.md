@@ -13,13 +13,13 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your dataset in about 150-200 words
 
-{Add your stuff here}
+The dataset we are doing for the DATA 301 Project is about the popularity of games. In particular, we are going to use a dataset of the top 100 (one hundred) games on Google Play Store (Note that Play Store is often found in most non-Apple products). These games are ranked by how popular they are by the amount of ratings they get (the thing where you rate 1-5 stars). For example PUBG has 37276732 ratings, topping at rank 2. The dataset also explains other factors relating to the popularity of the games, including the number of 5 star ratings, the Average ratings per game (between 1-5 stars), the growth of the game (in both 30 and 60 days), install milestones, even the game category (i.e action or adventure games).
 
 ## Team Members
 
 - Person 1: Hi, my name is Mark. I am a second years Math student.
 - Person 2: Hello, my name is Alex Richkum and I am a fourth year Business Management student.
-- Person 3: one sentence about you!
+- Person 3: I'm Bathara Sugriat and unlike in Phub, my step sister is my worst enemy.
 
 ## Images
 
