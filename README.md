@@ -18,7 +18,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 ## Team Members
 
 - Person 1: Hi, my name is Mark. I am a second years Math student.
-- Person 2: one sentence about you!
+- Person 2: Hello, my name is Alex Richkum and I am a fourth year Business Management student.
 - Person 3: one sentence about you!
 
 ## Images
