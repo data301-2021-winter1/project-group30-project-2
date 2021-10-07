@@ -1,5 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=5890772&assignment_repo_type=AssignmentRepo)
-# Group YYY - {Short snappy Title of your project}
+# Group 30 - {A project about games}
 
 - Your title can change over time.
 
@@ -25,7 +25,7 @@ The dataset we are doing for the DATA 301 Project is about the popularity of gam
 
 {You can use this area for any images you want to include}
 
-<img src ="images/test.png" width="100px">
+<img src ="images/rTSev4Z__400x400.png" width="100px">
 
 ## References
 
