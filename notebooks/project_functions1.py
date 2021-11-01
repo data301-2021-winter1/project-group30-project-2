@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {
  "cells": [
   {
@@ -56,12 +57,16 @@
  "nbformat_minor": 5
 }
 =======
+=======
+import pandas as pd
+
+>>>>>>> 6e0484f1820dc7e96e70a476dd54e5cf878f1263
 def load_and_process(url_or_path_to_csv_file):
 
     # Method Chain 1 (Load data and deal with missing data)
 
     df1 = (
-          pd.read_csv('../data/raw/android-games.csv')
+          pd.read_csv(url_or_path_to_csv_file)
           .dropna(how="any")
           .sort_values("installs")
           .reset_index(drop=True)
