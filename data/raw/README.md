@@ -1,3 +1,3 @@
 # Raw Data Folder
 
-- `raw` - raw data should go in this directory; you should add the original source file here. Always keep the original data file without editing.
+- `raw` - This folder will include all of the raw data from our dataset that has not yet or will not be processed during the completion fo the project.
