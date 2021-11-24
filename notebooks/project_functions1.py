@@ -1,9 +1,11 @@
+import pandas as pd
+
 def load_and_process(url_or_path_to_csv_file):
 
     # Method Chain 1 (Load data and deal with missing data)
 
     df1 = (
-          pd.read_csv('../data/raw/android-games.csv')
+          pd.read_csv(url_or_path_to_csv_file)
           .dropna(how="any")
           .sort_values("installs")
           .reset_index(drop=True)
@@ -18,3 +20,4 @@ def load_and_process(url_or_path_to_csv_file):
     # Make sure to return the latest dataframe
 
     return df2 
+
