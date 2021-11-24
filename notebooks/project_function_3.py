@@ -2,21 +2,31 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": null,
-   "id": "48a5ff98-dcf9-4c68-ae4d-7e41a4519d8a",
+   "execution_count": 1,
+   "id": "6b9fcedf-2c32-4e4c-809b-3732140cb8c2",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "PROJECT FUNCTION 3\n"
+     ]
+    }
+   ],
    "source": [
+    "print('PROJECT FUNCTION 3')\n",
+    "\n",
     "import pandas as pd\n",
     "\n",
-    "def load_and_process('../data/raw/android-games.csv'):\n",
+    "def load_and_process(url_or_path_to_csv_file):\n",
     "\n",
     "    # Method Chain 1 (Load data and deal with missing data)\n",
     "\n",
     "    df1 = (\n",
-    "          pd.read_csv('../data/raw/android-games.csv')\n",
+    "          pd.read_csv(url_or_path_to_csv_file)\n",
     "          .dropna(how=\"any\")\n",
-    "          .sort_values(\"installs\")\n",
+    "          .sort_values(\"category\")\n",
     "          .reset_index(drop=True)\n",
     "      )\n",
     "\n",
@@ -30,11 +40,19 @@
     "\n",
     "    return df2 "
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c02721e6-fe75-4c8d-9607-ad54873d219a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
   "kernelspec": {
-   "display_name": "Python 3",
+   "display_name": "Python 3 (ipykernel)",
    "language": "python",
    "name": "python3"
   },
@@ -54,4 +72,3 @@
  "nbformat": 4,
  "nbformat_minor": 5
 }
-
