@@ -4,20 +4,21 @@ def load_and_process(url_or_path_to_csv_file):
 
     # Method Chain 1 (Load data and deal with missing data)
 
-    df1 = (
-          pd.read_csv(url_or_path_to_csv_file)
-          .dropna(how="any")
-          .sort_values("installs")
+    dfg1 = (
+          pd.read_csv('../data/raw/android-games.csv')
+          .dropna(axis=0)
           .reset_index(drop=True)
       )
 
     # Method Chain 2 (Create new columns, drop others, and do processing)
 
-    df2 = (
-          df1
+    dfg2 = (
+          dfg1
+          .drop(['growth (30 days)','growth (60 days)','paid'], axis=1)
+          .sort_values('5 star ratings', ascending=False)
       )
 
-    # Make sure to return the latest dataframe
+    return dfg2 
 
-    return df2 
+load_and_process('../data/raw/android-games.csv')
 
